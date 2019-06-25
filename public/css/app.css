@@ -1,0 +1,278 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+
+/*Nav bar style*/
+/* Add a dark background color with a little bit see-through */ 
+.navbar {
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 12px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+.navbar-brand {
+   font-size: 16px;
+   padding-left: 20px;
+  }
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+  color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+  color: #fff ;
+  background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+  color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+  background-color: red !important;
+}
+
+/*Nav bar style end*/
+
+
+
+#myCarousel{
+	position: relative;
+	margin-top: -20px;
+}
+
+
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel .item {
+  height: 500px;
+  background-color:#bbb;
+  overflow:hidden;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+#search_box {
+	  position: absolute;
+    height: auto;
+    max-width: 750px;
+    background: rgba(0,0,0,0.7);
+    z-index: 999;
+    margin: 0 auto;
+    margin-top: -320px;
+    left: 0!important;
+    right: 0!important;
+    padding: 20px 30px 30px 30px;
+}
+#search_label{
+	color:white;
+  text-align: center;
+}
+#search_bar{
+	width:300px;
+}
+
+/*search bar*/
+
+
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+#search_bar_box button{
+    border:0;
+    background:transparent;
+}
+
+
+
+/*search bar end*/
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (max-width: 768px) {
+
+  .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  	max-width:inherit;
+  }
+
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+}
+
+
+#jumbotron{
+	position: relative;
+	width: 100%;
+	background-color: silver;
+}
+
+
+
+/*jumbootron*/
+#jt{
+  min-height: 300px;
+  background-color: #31708f;
+}
+.box{
+  color:white;
+  padding:30px;
+  text-align: center;
+}
+.box span{
+  zoom:800%;
+}
+
+.box-title{
+  height:120px;
+}
+
+
+
+.canvas{
+  padding-top: 10px;
+  padding-left: 0px;
+  background-color: #c0c0c026;
+}
+.canvas-head  h2{
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+.sort-pagination{
+  text-align: right;
+}
+.sort-pagination a{
+  width: 25px;
+  padding: 4px 2px 4px 2px;
+}
+.sort-pagination span{
+}
+
+
+
+.canvas-body{
+  margin-bottom: 10px;
+}
+
+.canvas-body .content{
+  display: block;
+  height: 200px;
+  margin-top:10px;
+  margin-left: 10px;  
+  width: 550px;
+  float: left;
+  background-color: white;
+/*  border:1px solid red;*/
+}
+#content-a{
+  text-decoration:none;
+  color: black;
+
+}
+.canvas-body .content:hover{
+  box-shadow: 0px 0px 4px 0px #007ce678;
+
+    -webkit-transition: box-shadow .5s ease-out;
+  -moz-transition: box-shadow .5s ease-out;
+}
+
+.content-img{
+  float: left;
+}
+
+.content-img img{
+  height: 200px;
+  width: 250px;
+}
+.content .content-des1{
+  height: 200px;
+  width: 290px;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+
+.content-des1 h2{
+  font-size: 15px;
+  margin: 0px;
+  padding-top: 10px;
+  /*border: 1px solid red;*/
+}
+.content-des1 .address{
+  height:130px;
+  overflow: hidden;
+  /*border: 1px solid silver;*/
+}
+.content-des1 h1{
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  /*border: 1px solid green;*/
+}
+.content-des1 h3{
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+}
+
+.content-des1 .item-des{
+  font-size: 12px;
+}
+
+.content-des1 .item-des p{
+  padding: 0px;
+  margin:0px;
+}
+
+
+.searchresult{
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+
+#tr-data:hover{
+  background-color: #c0c0c026;
+  -webkit-transition: background-color .5s ease-out;
+  -moz-transition: background-color .5s ease-out;
+  -o-transition: background-color .5s ease-out;
+  transition: background-color .5s ease-out;
+}
